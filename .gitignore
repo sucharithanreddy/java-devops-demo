@@ -1,0 +1,102 @@
+# ----------------------------------------
+# Java / Maven
+# ----------------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# ----------------------------------------
+# Spring Boot
+# ----------------------------------------
+# Exclude Spring Boot DevTools restart folder
+.spring-boot-devtools.properties
+.spring-boot-devtools
+
+# ----------------------------------------
+# Docker
+# ----------------------------------------
+# Docker build cache
+**/.docker/
+**/.dockerignore
+
+# Do not ignore Dockerfile
+!Dockerfile
+
+# ----------------------------------------
+# Kubernetes
+# ----------------------------------------
+# Ignore kubectl cache/config (local only)
+.kube/
+*.yaml~
+
+# ----------------------------------------
+# IDEs
+# ----------------------------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.springBeans
+.apt_generated/
+
+# VSCode
+.vscode/
+.history/
+
+# ----------------------------------------
+# OS / Environment
+# ----------------------------------------
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ----------------------------------------
+# Python or misc (WSL users often get these)
+# ----------------------------------------
+__pycache__/
+*.pyc
+
+# ----------------------------------------
+# Node (in case you add front-end later)
+# ----------------------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------------------------
+# Others
+# ----------------------------------------
+.env
+.env.*
+*.tmp

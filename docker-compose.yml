@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  devops-demo:
+    container_name: devops-demo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: devops-demo:1.0.0
+    ports:
+      - "8080:8080"
+    environment:
+      # Optional env vars for the app
+      - SPRING_PROFILES_ACTIVE=docker
+    restart: unless-stopped
